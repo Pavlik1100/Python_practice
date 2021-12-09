@@ -60,8 +60,8 @@ print(l)
 ```sh
 print (b, l)
 ```
-```sh
 13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)
+```sh
 m = str(b)
 print(m+l)
 ```
