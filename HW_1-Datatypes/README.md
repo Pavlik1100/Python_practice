@@ -1,5 +1,5 @@
 # HW_1-Datatypes 
-## [File with code *py](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov/blob/main/HW_1-Datatypes/main_too.py)
+## [File with code *.py](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov/blob/main/HW_1-Datatypes/main_too.py)
 1) Создать переменную типа String
 ```sh
 a = "Hello"
