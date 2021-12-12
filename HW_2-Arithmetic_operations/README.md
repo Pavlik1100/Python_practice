@@ -131,7 +131,7 @@ result_division_loss = item_1 % item_2
 print('result_division_loss =', result_division_loss)
 ```
 ## Part 2 - Arithmetic operations [arithmetic_2.py](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov/blob/main/HW_2-Arithmetic_operations/arithmetic_2.py)
-# Дальше будет реализация через арифметические действия с присваиванием.
+## Дальше будет реализация через арифметические действия с присваиванием.
 33. Создать переменную `item_3` и присвоить ей целое число
 ```py
 item_3 = 4
@@ -193,7 +193,7 @@ item_3 %= 13
 print('item_3 =', item_3)
 ```
 ## Part 3 - Arithmetic operations with boolean type [boolean.py](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov/blob/main/HW_2-Arithmetic_operations/boolean.py)
-# Boolean
+## Boolean
 48. Создать переменную `b_item_t` и присвоить `True`
 ```py
 b_item_t = True
