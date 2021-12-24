@@ -1,252 +1,175 @@
-# HW_2-Arithmetic_operations
-## [arithmetic.py](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov/blob/main/HW_2-Arithmetic_operations/arithmetic.py) |-|-| [arithmetic_2.py](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov/blob/main/HW_2-Arithmetic_operations/arithmetic_2.py) |-|-| [boolean.py](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov/blob/main/HW_2-Arithmetic_operations/boolean.py)
-## Part 1 - Arithmetic operations [arithmetic.py](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov/blob/main/HW_2-Arithmetic_operations/arithmetic.py) 
-1. Создать переменную `item_1` типа `integer`.
+# HW_3-If_else_elif
+## [if_else_elif.py](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov/blob/main/HW_3-If_else_elif/if_else_elif.py) 
+1. Создать переменную `int_item` со значением `10`
 ```py
-item_1 = 10
+int_item = 10
 ```
-2. Создать переменную `item_2` типа `integer`.
+2. Создать переменную `comp_item` со значением `18`
 ```py
-item_2 = 20
+comp_item = 18
 ```
-3. Создать переменную `result_sum` в которой вы суммируете `item_1` и `item_2`.
+3. Создать переменную `mult_int` в которй умножите `int_item` на `2`
 ```py
-result_sum = item_1 + item_2
+mult_int = int_item * 2
 ```
-4. Вывести `result_sum` в консоль.
+4. Создать переменную `item_2` со значением `True`
 ```py
-print('result_sum =', result_sum)
+item_2 = True
 ```
-5. Создать переменную `result_subtr` в которой вы вычитаете большую по значению переменную из меньшей по значению.
+5. Создать переменную `item_3` со значением `False`
 ```py
-result_subtr = item_2 - item_1
+item_3 = False
 ```
-6. Вывести `result_subtr` в консоль.
+6. Создать переменную `item_4` со значением `0`
 ```py
-print('result_subtr =', result_subtr)
+item_4 = 0
 ```
-7. Создать переменную `result_multi` в которой вы умножаете `item_1` на `item_2`.
+7. Создать переменную `item_5` со значением `1`
 ```py
-result_multi = item_1 * item_2
+item_5 = 1
 ```
-8. Вывести `result_multi` в консоль.
+8. Создать переменную `usd_item` со значением `‘usd’`
 ```py
-print('result_multi =', result_multi)
+usd_item = 'usd'
 ```
-9. Создать переменную `result_exp` в которой вы `item_1` возводите в степень `item_2`.
+9. Создать переменную `usd_usd_rate` со значением `1`
 ```py
-result_exp = item_1 ** item_2
+usd_usd_rate = 1
 ```
-10. Вывести `result_exp` в консоль.
+10. Создать переменную `eur_item` со значением `‘eur’`
 ```py
-print('result_exp =', result_exp)
+eur_item = 'eur'
 ```
-11. Создать переменную `result_m_exp` в которой вы `item_1` возводите в степень `item_2` используя библиотеку `math`.
+11. Создать переменную `usd_eur_rate` со значением `0.86`
 ```py
-import math
-result_m_exp = math.pow(item_1, item_2)
+usd_eur_rate = 0.86
 ```
-12. Вывести `result_m_exp` в консоль.
+12. Создать переменную `uah_item` со значением `‘uah’`
 ```py
-print('result_m_exp =', result_m_exp)
+uah_item = 'uah'
 ```
-13. Создать переменную `result_s_root` в которой вы найдёте квадратный корень любой из переменной `item`
+13. Создать переменную `usd_uah_rate` со значением `26.23`
 ```py
-result_s_root = item_2 ** (0.5)
+usd_uah_rate = 26.23
 ```
-14. Вывести `result_s_root` в консоль.
+14. Создать переменную `chf_item` со значением `‘chf’`
 ```py
-print('result_s_root = ', result_s_root)
+chf_item = 'chf'
 ```
-15. Создать переменную `result_m_s_root` в которой вы найдёте квадратный корень любой из переменной `item` используя библиотеку `math`.
+15. Создать переменную `usd_chf_rate` со значением `0.91`
 ```py
-result_m_s_root = math.sqrt(item_2)
+usd_chf_rate = 0.91
 ```
-16. Вывести `result_m_s_root` в консоль.
+16. Создать переменную `rub_item` со значением `‘rub’`
 ```py
-print('result_m_s_root =', result_m_s_root)
+rub_item = 'rub'
 ```
-17. Создать переменную `result_mp_s_root` в которой вы найдёте квадратный корень любой из переменной `item` используя библиотеку `math` используя метод `pow`.
+17. Создать переменную `usd_rub_rate` со значением `71.88`
 ```py
-result_mp_s_root = math.pow(item_2, 0.5)
+usd_rub_rate = 71.88
 ```
-18. Вывести `result_mp_s_root` в консоль.
+18. Создать переменную `byn_item` со значением `‘byn’`
 ```py
-print('result_mp_s_root =', result_mp_s_root)
+byn_item = 'byn'
 ```
-19. Присвоить переменной `item_1` odd значение
+19. Создать переменную `usd_byn_rate` со значением `2.46`
 ```py
-item_1 = 11
+usd_byn_rate = 2.46
 ```
-20. Присвоить переменной `item_2` even значение
+20. Сделать `if` в котором будет условие: если `mult_int` больше `comp_item`, то вывести в консоль (“Переменная mult_int больше”, comp_item)
 ```py
-item_2 = 4
+if mult_int > comp_item:
+    print("Переменная mult_int =", mult_int, "больше comp_item =", comp_item)
 ```
-21. Создать переменную `result_division` в которой вы разделите `item_1` на `item_2`.
+21. Создать переменную `div_int` в которй разделить `int_item` на `2`
 ```py
-result_division = item_1 / item_2
+div_int = int_item/2
 ```
-22. Вывести `result_division` в консоль.
+22. Сделать `if` в котором будет условие: если `div_int` меньше `comp_item`, то вывести в консоль (“Переменная div_int меньше”, comp_item)
 ```py
-print('result_division =', result_division)
+if div_int < comp_item:
+    print("Переменная div_int =", div_int, "меньше comp_item =", comp_item)
 ```
-23. Создать переменную `result_m_floor` и `result_division` округлить до ближайшего целого меньшего чем `result_division`.
+23. Создать переменную `item_1` в которй прибавить `10` к переменной `int_item`
 ```py
-result_m_floor = math.floor(result_division)
+item_1 = int_item + 10
 ```
-24. Вывести `result_m_floor` в консоль.
+24. Сделать `if` в котором будет условие: если `item_1` меньше `comp_item`, то вывести в консоль (“Переменная item_1 меньше”, comp_item), иначе, вывести в консоль (“Переменная item_1 больше или равна”, comp_item)
 ```py
-print('result_m_flor =', result_m_floor)
+if item_1 < comp_item:
+    print("Переменная item_1 =", item_1, "меньше comp_item = ", comp_item)
+else:
+    print("Переменная item_1 =", item_1, "больше или равна comp_item = ", comp_item)
 ```
-25. Создать переменную `result_m_ceil` и округлить до ближайшего целого большего чем `result_division`.
+25. Сделать `if` в котором будет условие: если `item_2`, то вывести в консоль (“Переменная item_2 = ”, item_2), иначе, вывести в консоль (“Переменная item_2 = ”, item_3)
 ```py
-result_m_ceil = math.ceil(result_division)
+if item_2:
+    print("Переменная item_2 =", item_2)
+else:
+    print("Переменная item_2 =", item_3)
 ```
-26. Вывести `result_m_ceil` в консоль.
+26. Сделать `if` в котором будет условие: если `item_3`, то вывести в консоль (“Переменная item_3 = ”, item_2), иначе, вывести в консоль (“Переменная item_3 = ”, item_3)
 ```py
-print('result_m_ceil =', result_m_ceil)
+if item_3:
+    print("Переменная item_3 =", item_2)
+else:
+    print("Переменная item_3 =", item_3)
 ```
-27. Создать переменную `result_int` и округлить до ближайшего целого через явное приведение.
+27. Сделать `if` в котором будет условие: если `item_5`, то вывести в консоль (“Переменная item_5 = ”, item_5), иначе, вывести в консоль (“Переменная item_5 = ”, item_4)
 ```py
-result_int = int(result_division)
+if item_5:
+    print("Переменная item_5 =", item_5)
+else:
+    print("Переменная item_5 =", item_4)
 ```
-28. Вывести `result_int` в консоль.
+28. Сделать `if` в котором будет условие: если `item_4`, то вывести в консоль (“Переменная item_4 = ”, item_5), иначе, вывести в консоль (“Переменная item_4 = ”, item_4)
 ```py
-print('result_int =', result_int)
+if item_4:
+    print("Переменная item_4 =", item_5)
+else:
+    print("Переменная item_4 =", item_4)
 ```
-29. Создать переменную `result_no_division_loss` в которой вы разделите `item_1` на `item_2` без остатка.
+29. Создать переменную `currency_convertor` со значением `item_2`
 ```py
-result_no_division_loss = item_1 // item_2
+currency_convertor = item_2
 ```
-30. Вывести `result_no_division_loss` в консоль.
+30. Сделать `if` в котором будет условие: если `currency_convertor`, то выполнять следующие шаги задания, иначе, вывести в консоль (“Переменная currency_convertor = ”, item_3)   
+    31. Внутри `if currency_convertor` сделать следующие If условия :   
+       31.1 Создать переменную `currency_usd` со значением `usd_item`   
+       31.2 Создать переменную `target_currency` со значением `eur_item`   
+       31.3 Создать переменную `target_currency_amount` значением `50`   
+       31.4 Создать переменную `currency_result` со значением `0`   
+       31.4 Сделать `if` в котором будет условие: если `target_currency` равен `‘eur’`, то в теле этого `if` в значении переменной `currency_result` высчитать сколько долларов получится при `target_currency_amount` и `usd_eur_rate`. Результат вывести в консоль (target_currency_amount, eur_item, “=”, currency_result, usd_item)  
+       31.5 Сделать `elif` в котором будет условие: если `target_currency` равен `‘uah’`, то в теле этого `if` в значении переменной `currency_result` высчитать сколько долларов получится при `target_currency_amount` и `usd_uah_rate`. Результат вывести в консоль (target_currency_amount, uah_item, “=”, currency_result, uah_item)   
+       31.6 Сделать `elif` с остальными валютами      
+       31.7 Последним оставить `else`, при выполнений которого в консоль выведется (“Unknow currency”)  
 ```py
-print('result_no_division_loss =', result_no_division_loss)
+if currency_convertor:
+    currency_usd = usd_item
+    target_currency = eur_item
+    target_currency_amount = 50
+    currency_result = 0
+    if target_currency == 'eur':
+        currency_result = target_currency_amount * usd_eur_rate
+        print(target_currency_amount, eur_item, '=', currency_result, usd_item)
+    elif target_currency == 'uah':
+        currency_result = target_currency_amount * usd_uah_rate
+        print(target_currency_amount, uah_item, '=', currency_result, usd_uah_rate)
+    elif target_currency == "byn":
+        currency_result = target_currency_amount * usd_byn_rate
+        print(target_currency_amount, byn_item, '=', currency_result, usd_byn_rate)
+    elif target_currency == "usd":
+        currency_result = target_currency_amount * usd_usd_rate
+        print(target_currency_amount, usd_item, '=', currency_result, usd_usd_rate)
+    elif target_currency == "chf":
+        currency_result = target_currency_amount * usd_chf_rate
+        print(target_currency_amount, chf_item, '=', currency_result, usd_chf_rate)
+    elif target_currency == "rub":
+        currency_result = target_currency_amount * usd_rub_rate
+        print(target_currency_amount, rub_item, '=', currency_result, usd_rub_rate)
+    else:
+        print("Unknow currency")
+else:
+     print("Переменная currency_convertor =", item_3)
 ```
-31. Создать переменную `result_division_loss` в которой вы найдёте остаток от деления `item_1` на `item_2`.
-```py
-result_division_loss = item_1 % item_2
-```
-32. Вывести `result_division_loss` в консоль.
-```py
-print('result_division_loss =', result_division_loss)
-```
-## Part 2 - Arithmetic operations [arithmetic_2.py](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov/blob/main/HW_2-Arithmetic_operations/arithmetic_2.py)
-## Дальше будет реализация через арифметические действия с присваиванием.
-33. Создать переменную `item_3` и присвоить ей целое число
-```py
-item_3 = 4
-```
-34. Прибавить `10` к `item_3` с присвоением.
-```py
-item_3 += 10
-```
-35. Вывести `item_3` в консоль.
-```py
-print('item_3 =', item_3)
-```
-36. Отнять `5` от `item_3` с присвоением.
-```py
-item_3 -= 5
-```
-37. Вывести `item_3` в консоль.
-```py
-print('item_3 =', item_3)
-```
-38. Умножить `item_3` на `3` с присвоением.
-```py
-item_3 *= 3
-```
-39. Вывести `item_3` в консоль.
-```py
-print('item_3 =', item_3)
-```
-40. Разделить `item_3` на `2` с присвоением.
-```py
-item_3 /= 2
-```
-41. Вывести `item_3` в консоль.
-```py
-print('item_3 =', item_3)
-```
-42. Возвести в степень `2` `item_3` с присвоением.
-```py
-item_3 **= 2
-```
-43. Вывести `item_3` в консоль.
-```py
-print('item_3 =', item_3)
-```
-44. Найти квадратный корень `item_3` с присвоением.
-```py
-item_3 **= 0.5
-```
-45. Вывести `item_3` в консоль.
-```py
-print('item_3 =', item_3)
-```
-46. Присвоить остаток от деления `item_3`
-```py
-item_3 %= 13
-```
-47. Вывести `item_3` в консоль.
-```py
-print('item_3 =', item_3)
-```
-## Part 3 - Arithmetic operations with boolean type [boolean.py](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov/blob/main/HW_2-Arithmetic_operations/boolean.py)
-## Boolean
-48. Создать переменную `b_item_t` и присвоить `True`
-```py
-b_item_t = True
-```
-49. Создать переменную `b_item_f` и присвоить `False`
-```py
-b_item_f = False
-```
-50. Создать переменную `b_item_relult_sum` и присвоить сумму `b_item_t` и `b_item_f`
-```py
-b_item_result_sum = b_item_f + b_item_t
-```
-51. Вывести `b_item_relult_sum` в консоль.
-```py
-print('b_item_reslt_sum =', b_item_result_sum)
-```
-52. Создать переменную `b_item_relult_subtr` и присвоить разницу `b_item_t` и `b_item_f`
-```py
-b_item_result_subtr = b_item_t - b_item_f
-```
-53. Вывести `b_item_relult_subtr` в консоль.
-```py
-print('b_item_result_subtr =', b_item_result_subtr)
-```
-54. Создать переменную `b_item_relult_multi` и присвоить умножение `b_item_t` и `b_item_f`
-```py
-b_item_result_multi = b_item_t * b_item_f
-```
-55. Вывести `b_item_relult_multi` в консоль.
-```py
-print('b_item_result_multi =', b_item_result_multi)
-```
-56. Создать переменную `b_item_relult_division` и присвоить деление `b_item_t` и `b_item_f`
-```py
-b_item_result_decision = b_item_t / b_item_f
-```
-57. Вывести `b_item_relult_division` в консоль. (Получить ошибку)
-```py
-#  print('b_item_result_decision', b_item_result_decision)
-```
-58. Создать переменную `b_item_1_int` и присвоить явное приведение `b_item_t` к `int`
-```py
-b_item_1_int = int(b_item_t)
-```
-59. Вывести `b_item_1_int` в консоль.
-```py
-print('b_item_1_int =', b_item_1_int)
-```
-60. Создать переменную `b_item_2_int` и присвоить явное приведение `b_item_2` к `int`
-```py
-b_item_2_int = int(b_item_f)
-```
-61. Вывести `b_item_2_int` в консоль.
-```py
-print('b_item_2_int =', b_item_2_int)
-```
+# [Main python dir](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov)
