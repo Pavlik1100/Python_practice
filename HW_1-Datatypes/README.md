@@ -65,3 +65,4 @@ print (b, l)
 m = str(b)
 print(m+l)
 ```
+# [Main python dir](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov)
