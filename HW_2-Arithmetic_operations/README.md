@@ -250,3 +250,4 @@ b_item_2_int = int(b_item_f)
 ```py
 print('b_item_2_int =', b_item_2_int)
 ```
+# [Main python dir](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov)
