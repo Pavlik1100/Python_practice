@@ -1,175 +1,137 @@
-# HW_3-If_else_elif
-## [if_else_elif.py](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov/blob/main/HW_3-If_else_elif/if_else_elif.py) 
-1. Создать переменную `int_item` со значением `10`
+# HW_4-While_For_Input
+## [Cycles.py](https://github.com/Pavlik1100/Python_practice/tree/main/HW_4-While_For_Input) 
+### Python HW 4 Cycles
+
+### Цилы While  
+1. Создать переменную count со значением 0
 ```py
-int_item = 10
+count = 0
 ```
-2. Создать переменную `comp_item` со значением `18`
+2. Создать переменную range_count со значением 10
 ```py
-comp_item = 18
+range_count = 10
 ```
-3. Создать переменную `mult_int` в которй умножите `int_item` на `2`
+3. Создать переменную for_count со значением 0
 ```py
-mult_int = int_item * 2
+for_count = 0
 ```
-4. Создать переменную `item_2` со значением `True`
+4. Создать переменную run  со значением True
 ```py
-item_2 = True
+run = True
 ```
-5. Создать переменную `item_3` со значением `False`
+5. Сделать цикл while который будет работать пока run
+Тело цикла:
+   5.1 Выводить в консоль “Hello Cycle”
 ```py
-item_3 = False
+while run:
+   print("Hello Cycle")
 ```
-6. Создать переменную `item_4` со значением `0`
+6. Сделать цикл while который будет работать пока run
+Тело цикла:   
+   6.1 Выводить в консоль (“Step =”, count)   
+   6.2 Переменной count прибавлять 1 с присвоением.   
 ```py
-item_4 = 0
+while run:
+   print("Step =", count)
+   count += 1
 ```
-7. Создать переменную `item_5` со значением `1`
+7. Сделать цикл while который будет работать пока count < range_count
+Тело цикла:   
+   7.1 Выводить в консоль (“Step =”, count)   
+   7.2 Переменной count прибавлять 1 с присвоением.   
 ```py
-item_5 = 1
+while count < range_count:
+   print("Step =", count)
+   count += 1
 ```
-8. Создать переменную `usd_item` со значением `‘usd’`
+8. Сделать цикл while который будет работать пока count < range_count
+Тело цикла:   
+   8.1 Выводить в консоль (“Step =”, count)   
+   8.2 Переменной count прибавлять 1 с присвоением.   
+   8.3 Сделать if с условием, если count равен 3 то выводить в консоль (“Step =”, count, ‘If body’)   
 ```py
-usd_item = 'usd'
+while count < range_count:
+   print("Step =", count)
+   count += 1
+   if count == 3:
+      print("Step = ", count, 'If body')
 ```
-9. Создать переменную `usd_usd_rate` со значением `1`
+9. Сделать цикл while который будет работать пока run   
+Тело цикла:   
+   9.1 Выводить в консоль (“Step =”, count)   
+   9.2 Переменной count прибавлять 1 с присвоением.   
+   9.2 Сделать if с условием, если count равен range_count то цикл остановится.   
+   9.3 В теле if вывести в консоль (“STOP”, count)   
 ```py
-usd_usd_rate = 1
+while run:
+   print("Step =", count)
+   count += 1
+   if count == range_count:
+      print("STOP", count)
+      break
 ```
-10. Создать переменную `eur_item` со значением `‘eur’`
+### Цилы For
+10. Сделать цикл for c переменной item который будет работать пока счётчик range досчитает от for_count  до range_count
+Тело цикла:   
+   10.1 Вывести в консоль (‘Step =’, item)    
 ```py
-eur_item = 'eur'
+for item in range(for_count, range_count):
+   print("Step =", item)
 ```
-11. Создать переменную `usd_eur_rate` со значением `0.86`
+11. Сделать цикл for c переменной item который будет работать пока счётчик range досчитает от 0 до 30
+Тело цикла:   
+   11.1 Вывести в консоль (‘Step =’, item)   
+   11.2 Сделать if с условием, если item равен  5, то вывести в консоль (‘Item =’, item).   
+   11.3 Сделать if с условием, если item равен  10, то вывести в консоль (‘Item =’, item).   
+   11.4 Сделать if с условием, если item меньше 4, то вывести в консоль (‘Item <’, item).   
+   11.5 Сделать if с условием, если item больше или равно 27, то вывести в консоль (‘Item >=’, item).   
 ```py
-usd_eur_rate = 0.86
+for item in range(0, 30):
+   if item == 5:
+      print("Item =", item)
+   if item == 10:
+      print("Item =", item)
+   if item < 4:
+      print("Item <", item)
+   if item >= 27:
+      print("Item >=", item)
 ```
-12. Создать переменную `uah_item` со значением `‘uah’`
+12. Сделать цикл for c переменной item который будет работать пока счётчик range досчитает от 0 до range_count +1
+Тело цикла:   
+   12.1 Вывести в консоль (‘Step =’, item)   
+   12.2 Сделать if с условием, если item равен  7.   
+      - В теле if создать переменную inner_count равную 0   
+      - В теле if вывести в консоль (‘-- inner_count =’, inner_count)   
+      - В теле if сделать ещё одни цикл for с переменной inner_item который будет работать пока счётчик range досчитает от 0 до item.   
+      Тело внутреннего цикла For:   
+         -- Вывести в консоль (‘-------- Inner_Step =’, inner_item)   
+         -- Сделать if если inner_item равен 5, то в inner_count присвоить inner_item.   
+      - За пределами тела предыдущего цикла вывести в консоль (‘-- inner_count =’, inner_count)   
 ```py
-uah_item = 'uah'
+for item in range(0, range_count+1):
+   print("Step =", item)
+   if item == 7:
+      inner_count = 0
+      print("-- inner_count =", inner_count)
+      for inner_item in range(0, item):
+         print("-------- Inner_Step =", inner_item)
+         if inner_item == 5:
+            inner_count = inner_item
+print("-- inner_count =", inner_count)
 ```
-13. Создать переменную `usd_uah_rate` со значением `26.23`
+13. Сделать цикл for c переменной item который будет работать пока счётчик range досчитает от 0 до 20
+Тело цикла:   
+   13.1 Вывести в консоль (‘Step =’, item)    
+   13.2 Сделать if с условием, если item больше  7 и item меньше 12.   
+      - В теле if вывести (‘If_item =’, item)   
+      - В теле if поставить continue.    
+   13.3 Выйти из if. Вывести в консоль (‘End_iteration =’, item)      
 ```py
-usd_uah_rate = 26.23
-```
-14. Создать переменную `chf_item` со значением `‘chf’`
-```py
-chf_item = 'chf'
-```
-15. Создать переменную `usd_chf_rate` со значением `0.91`
-```py
-usd_chf_rate = 0.91
-```
-16. Создать переменную `rub_item` со значением `‘rub’`
-```py
-rub_item = 'rub'
-```
-17. Создать переменную `usd_rub_rate` со значением `71.88`
-```py
-usd_rub_rate = 71.88
-```
-18. Создать переменную `byn_item` со значением `‘byn’`
-```py
-byn_item = 'byn'
-```
-19. Создать переменную `usd_byn_rate` со значением `2.46`
-```py
-usd_byn_rate = 2.46
-```
-20. Сделать `if` в котором будет условие: если `mult_int` больше `comp_item`, то вывести в консоль (“Переменная mult_int больше”, comp_item)
-```py
-if mult_int > comp_item:
-    print("Переменная mult_int =", mult_int, "больше comp_item =", comp_item)
-```
-21. Создать переменную `div_int` в которй разделить `int_item` на `2`
-```py
-div_int = int_item/2
-```
-22. Сделать `if` в котором будет условие: если `div_int` меньше `comp_item`, то вывести в консоль (“Переменная div_int меньше”, comp_item)
-```py
-if div_int < comp_item:
-    print("Переменная div_int =", div_int, "меньше comp_item =", comp_item)
-```
-23. Создать переменную `item_1` в которй прибавить `10` к переменной `int_item`
-```py
-item_1 = int_item + 10
-```
-24. Сделать `if` в котором будет условие: если `item_1` меньше `comp_item`, то вывести в консоль (“Переменная item_1 меньше”, comp_item), иначе, вывести в консоль (“Переменная item_1 больше или равна”, comp_item)
-```py
-if item_1 < comp_item:
-    print("Переменная item_1 =", item_1, "меньше comp_item = ", comp_item)
-else:
-    print("Переменная item_1 =", item_1, "больше или равна comp_item = ", comp_item)
-```
-25. Сделать `if` в котором будет условие: если `item_2`, то вывести в консоль (“Переменная item_2 = ”, item_2), иначе, вывести в консоль (“Переменная item_2 = ”, item_3)
-```py
-if item_2:
-    print("Переменная item_2 =", item_2)
-else:
-    print("Переменная item_2 =", item_3)
-```
-26. Сделать `if` в котором будет условие: если `item_3`, то вывести в консоль (“Переменная item_3 = ”, item_2), иначе, вывести в консоль (“Переменная item_3 = ”, item_3)
-```py
-if item_3:
-    print("Переменная item_3 =", item_2)
-else:
-    print("Переменная item_3 =", item_3)
-```
-27. Сделать `if` в котором будет условие: если `item_5`, то вывести в консоль (“Переменная item_5 = ”, item_5), иначе, вывести в консоль (“Переменная item_5 = ”, item_4)
-```py
-if item_5:
-    print("Переменная item_5 =", item_5)
-else:
-    print("Переменная item_5 =", item_4)
-```
-28. Сделать `if` в котором будет условие: если `item_4`, то вывести в консоль (“Переменная item_4 = ”, item_5), иначе, вывести в консоль (“Переменная item_4 = ”, item_4)
-```py
-if item_4:
-    print("Переменная item_4 =", item_5)
-else:
-    print("Переменная item_4 =", item_4)
-```
-29. Создать переменную `currency_convertor` со значением `item_2`
-```py
-currency_convertor = item_2
-```
-30. Сделать `if` в котором будет условие: если `currency_convertor`, то выполнять следующие шаги задания, иначе, вывести в консоль (“Переменная currency_convertor = ”, item_3)   
-    31. Внутри `if currency_convertor` сделать следующие If условия :   
-       31.1 Создать переменную `currency_usd` со значением `usd_item`   
-       31.2 Создать переменную `target_currency` со значением `eur_item`   
-       31.3 Создать переменную `target_currency_amount` значением `50`   
-       31.4 Создать переменную `currency_result` со значением `0`   
-       31.4 Сделать `if` в котором будет условие: если `target_currency` равен `‘eur’`, то в теле этого `if` в значении переменной `currency_result` высчитать сколько долларов получится при `target_currency_amount` и `usd_eur_rate`. Результат вывести в консоль (target_currency_amount, eur_item, “=”, currency_result, usd_item)  
-       31.5 Сделать `elif` в котором будет условие: если `target_currency` равен `‘uah’`, то в теле этого `if` в значении переменной `currency_result` высчитать сколько долларов получится при `target_currency_amount` и `usd_uah_rate`. Результат вывести в консоль (target_currency_amount, uah_item, “=”, currency_result, uah_item)   
-       31.6 Сделать `elif` с остальными валютами      
-       31.7 Последним оставить `else`, при выполнений которого в консоль выведется (“Unknow currency”)  
-```py
-if currency_convertor:
-    currency_usd = usd_item
-    target_currency = eur_item
-    target_currency_amount = 50
-    currency_result = 0
-    if target_currency == 'eur':
-        currency_result = target_currency_amount * usd_eur_rate
-        print(target_currency_amount, eur_item, '=', currency_result, usd_item)
-    elif target_currency == 'uah':
-        currency_result = target_currency_amount * usd_uah_rate
-        print(target_currency_amount, uah_item, '=', currency_result, usd_uah_rate)
-    elif target_currency == "byn":
-        currency_result = target_currency_amount * usd_byn_rate
-        print(target_currency_amount, byn_item, '=', currency_result, usd_byn_rate)
-    elif target_currency == "usd":
-        currency_result = target_currency_amount * usd_usd_rate
-        print(target_currency_amount, usd_item, '=', currency_result, usd_usd_rate)
-    elif target_currency == "chf":
-        currency_result = target_currency_amount * usd_chf_rate
-        print(target_currency_amount, chf_item, '=', currency_result, usd_chf_rate)
-    elif target_currency == "rub":
-        currency_result = target_currency_amount * usd_rub_rate
-        print(target_currency_amount, rub_item, '=', currency_result, usd_rub_rate)
-    else:
-        print("Unknow currency")
-else:
-     print("Переменная currency_convertor =", item_3)
+for item in range(0, 30):
+   print("Step =", item)
+   if 7 < item < 12:
+      print("If_item =", item)
+      continue
+   print("End_iteration =", item)
 ```
 # [Main python dir](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov)
