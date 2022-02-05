@@ -1,5 +1,5 @@
 # HW_4-While_For_Input
-## [Cycles.py](https://github.com/Pavlik1100/Python_practice/tree/main/HW_4-While_For_Input) 
+## [Cycles.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_4-While_For_Input/Cycles.py) 
 ### Python HW 4 Cycles
 
 ### Цилы While  
