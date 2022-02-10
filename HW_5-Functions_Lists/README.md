@@ -7,6 +7,8 @@
 ### Задача №3: [def_three_1.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_three_1.py) || [def_three_2.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_three_2.py)
 ### Задача №4: [def_four_1.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_four_1.py) || [def_four_2.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_four_2.py)
    
+     
+     
 ### Предусловие.  
 Задачи 3 и 4 выполнить в 2-х вариантах:
 1) В процедурном виде (весь код в одной процедуре).
@@ -66,8 +68,6 @@
                 "Вы ввели пустое поле. Введите число." Если введено пустое значение.  
     7. После сообщеня об ошибке, скрипт должен автоматом вернуться к шагу 1.  
     8. Валюту пользователя определите сами.  
- 
-# [Main python dir](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov)
 
 ## 🚏 Navigate:
 [![Flutter](https://img.shields.io/badge/🏠-MAIN_PYTHON_DIR-00A98F)](https://github.com/Pavlik1100/Python_practis_on_course_Vadim_Ksendzov)  [![Flutter](https://img.shields.io/badge/🏠-QA_PRACTICE_BANCH-orange)](https://github.com/Pavlik1100/QA_Practice/tree/main)
