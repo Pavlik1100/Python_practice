@@ -1,6 +1,5 @@
-# HW_5-Functions  
-## [Cycles.py](https://github.com/Pavlik1100/Python_practice/tree/main/HW_4-While_For_Input) 
-
+# HW_5-Functions   
+  
 ### Выполненные задания
 ### Задача №1: [def_one.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_one.py)
 ### Задача №2: [def_two.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_two.py)
@@ -53,7 +52,7 @@
 				"Вы ввели пустое поле. Введите число." Если введено пустое значение.  
 	4. Валюту пользователя определите сами.  
                 
-Задача №4 [def_four_1.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_four_1.py) || [def_four_2.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_four_2.py)  
+### Задача №4 [def_four_1.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_four_1.py) || [def_four_2.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_four_2.py)  
 Обменник. Скрипт запускается в консоли и работает постоянно. Остановится нажатием ctrl+c.  
     1. Скрипт сначала выводит "Выберите валюту из ['USD','EUR','CHF','GBP','CNY']"  
     2. Пользователь вводит один из 5 вариантов ['USD','EUR','CHF','GBP','CNY']  
