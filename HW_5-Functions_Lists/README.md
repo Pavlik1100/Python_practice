@@ -1,12 +1,12 @@
 # HW_5-Functions   
   
-### Выполненные задания
+## Выполненные задания
 ### Задача №1: [def_one.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_one.py)
 ### Задача №2: [def_two.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_two.py)
 ### Задача №3: [def_three_1.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_three_1.py) || [def_three_2.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_three_2.py)
 ### Задача №4: [def_four_1.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_four_1.py) || [def_four_2.py](https://github.com/Pavlik1100/Python_practice/blob/main/HW_5-Functions_Lists/def_four_2.py)
    
-     
+##
      
 ### Предусловие.  
 Задачи 3 и 4 выполнить в 2-х вариантах:
